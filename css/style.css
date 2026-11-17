@@ -12,3 +12,12 @@ h3{border: 1px dashed #8b4513;}
 h3:hover{background-color: #FFF8E7;}
 
 footer{margin: 20px; padding: 20px; background-color: #FFFFFF; border-radius: 10px; box-shadow: 2px 2px 5px;}
+
+@media only screen and  (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  img{width: 100%;}
+  section{margin: 10px; padding: 10px; width: 90%;}
+  body{background-color: #FFF8E7;}
+}
