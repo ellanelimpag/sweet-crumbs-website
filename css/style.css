@@ -1,0 +1,10 @@
+/* Cream — #FFF8E7, Coffee Brown — #8B4513, Strawberry Pink — #F4A6B8 */
+body{background-color: #FFF8e7; font-family: Arial,sans-serif;}
+h1,h2,h3{color: #8B4513; font-family: Georgia, serif;}
+button,section#home a{background-color: #f29baf;color:#8B4513; padding: 10px;border-radius:8px;}
+nav{background-color:#FFF8E7; display: flex; gap: 15px;}
+nav a:hover{color:#F4A6B8;}
+img{width: 50%; border-radius: 10px}
+
+section{margin: 20px;}
+h3{background:  #F4A6B8; padding: 15px; border-radius: 10px; box-shadow: 2px 2px 5px;}
