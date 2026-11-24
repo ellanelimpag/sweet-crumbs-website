@@ -5,6 +5,14 @@ background-color: #FFF8E7;
 font-family: Arial,sans-serif;
 }
 
+header{
+display: flex;
+padding: 15px 30px;
+align-items: flex-start;
+}
+
+.hero-content{flex: 1}
+
 h1,h2,h3{color: 
 #8B4513; 
 font-family: Georgia, serif;
@@ -12,15 +20,18 @@ font-family: Georgia, serif;
 
 button,section#home a{
 background-color:#f29baf;
-color:#8B4513; 
+color:#8B4513
 padding: 10px;
 border-radius:8px;
 }
 
 nav{
 background-color:#FFF8E7; display: flex; 
-gap: 15px;
+gap: 50px;
+justify-content: center;
+margin-top: 0px;
 position: sticky;
+align-self: center;
 top: 0;
 z-index: 1000;
 }
@@ -37,6 +48,13 @@ background-color: #FFFFFF;
 border-radius: 10px; 
 box-shadow: 2px 2px 5px; 
 width: 90%;
+}
+
+section#home{
+background-color: transparent;
+box-shadow: none;
+margin: 0;
+padding: 0;
 }
 
 h3{background:  #F4A6B8; 
