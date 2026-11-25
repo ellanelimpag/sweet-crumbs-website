@@ -20,7 +20,7 @@ font-family: Georgia, serif;
 
 button,section#home a{
 background-color:#f29baf;
-color:#8B4513
+color:#8B4513;
 padding: 10px;
 border-radius:8px;
 }
@@ -86,4 +86,29 @@ box-shadow: 2px 2px 5px;
   img{width: 100%;}
   section{margin: 10px; padding: 10px; width: 90%;}
   body{background-color: #FFF8E7;}
+}
+
+#inquiry input,
+#inquiry textarea{
+width: 90%;
+padding: 10px;
+border: 1px solid #8B4513;
+background-color: #FFF8E7;
+display: block;
+}
+
+#contact{
+display: flex;
+align-items: flex-start;
+gap: 120px;
+}
+
+#contact #inquiry{
+background-color: transparent;
+box-shadow: none;
+border-radius: 0;
+margin: 0;
+padding: 0;
+width: auto;
+text-align: left;
 }
